@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Assignment</title>
+    <script src="script.js" defer></script>
+    <!-- 
+        primary color #8B173B
+        secondary color #009999
+    -->
+    <style>
+      h2 {
+        padding: 5px;
+        color: #ffffff;
+        background-color: #8b173b;
+      }
+      h3 {
+        color: #009999;
+      }
+      button {
+        padding: 5px;
+      }
+      #vote-button {
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Part One-->
+    <section>
+      <h2 style="background-color: #8b173b">Part One</h2>
+      <h3>Open Browser console to read variables of different type.</h3>
+      <hr />
+      <h3>Our New Calculator is Out,Test it !</h3>
+      <button onclick="calculator()">Calculate</button>
+      <hr />
+      <h3>You can also get personalised greetings</h3>
+      <button onclick="greetUser()">Try Personalised Greetings</button>
+      <div style="padding: 10px" id="greeting">
+        <!-- Greetings will appear here -->
+      </div>
+    </section>
+    <br />
+
+    <!-- Part Two-->
+    <section>
+      <h2>Part Two</h2>
+      <article>
+        <h3>PLP Tech Lead Voting</h3>
+        <p>Are you eligible for vote?</p>
+        <button id="vote-button" onclick="vote()">Check</button>
+        <div id="vote-content"><!-- Vote Eligibility Displayed here --></div>
+      </article>
+      <hr />
+      <h3>Loop To Display Numbers</h3>
+      <div id="numbers"><!--Looped Numbers displayed here--></div>
+      <hr />
+    </section>
+    <br />
+
+    <!-- Part Three-->
+    <section>
+      <h2>Part Three</h2>
+      <h3>DOM</h3>
+      <h1>JavaScript Assignment</h1>
+      <p>Learning JavaScript is fun!</p>
+      <div id="dynamic-content"></div>
+      <!-- Placeholder for dynamic content -->
+      <hr />
+    </section>
+  </body>
+</html>
